@@ -1,0 +1,40 @@
+.loginBG {
+    width: 100vw;
+    height: 105vh;
+    background: url('../../../images/b.jpg');
+    background-size: cover;
+    grid-column: 1/2;
+    background-color: rgba(0, 0, 0, 0.356);
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    position: absolute;
+}
+
+.loginPanel {
+    background-color: var(--primary-color);
+    width: 30vw;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 25vh auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.loginPanel h1 {
+    width: 100%;
+}
+
+.loginPanel input {
+    width: 70%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    margin: 10px;
+    padding-left: 5px;
+}
+
+.buttonDiv {
+    width: 100%;
+}
