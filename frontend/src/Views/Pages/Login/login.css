@@ -1,11 +1,11 @@
 .loginBG {
     width: 100vw;
-    height: 105vh;
-    background: url('../../../images/b.jpg');
-    background-size: cover;
+    height: 100vh;
+    background: url('../../../images/caterpillar.png');
+    background-size: 25%;
     grid-column: 1/2;
     background-color: rgba(0, 0, 0, 0.356);
-    background-blend-mode: multiply;
+    background-blend-mode: hard-light;
     background-attachment: fixed;
     position: absolute;
 }
@@ -13,17 +13,21 @@
 .loginPanel {
     background-color: var(--primary-color);
     width: 30vw;
-    border: 1px solid gray;
-    border-radius: 5px;
-    margin: 25vh auto;
+    border: 0px solid gray;
+    border-radius: 70px;
+    margin: 26vh auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
+    filter: drop-shadow(40px 50px 4px rgba(0,0,0,.3));
+    color: black;
 }
 
 .loginPanel h1 {
     width: 100%;
+    color: #E84C7E;
+    padding-top: 3vh;
 }
 
 .loginPanel input {

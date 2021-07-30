@@ -26,7 +26,7 @@ export default () => {
     return(
         <div className='loginBG'>
             <form className='loginPanel'>
-                <h1>Login:</h1>
+                <h1>Bug Catcher</h1>
                 <input name='name' placeholder='Name' onChange={inputChanged} value={formInput.name}></input>
                 <input name='password' type='password' placeholder='Password' onChange={inputChanged} value={formInput.password}></input>
                 <div className='buttonDiv'>

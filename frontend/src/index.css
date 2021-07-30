@@ -1,24 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
 #root {
     grid-template-columns: 20% 80%;
     display: grid;
-    --primary-color: #264e70;
+    --primary-color: #C5D3FB;
     --card-color: #cae1ff;
+    --tertiary-color: #FFFDD4;
     color: white;
     margin: -8px;
+    font-family: "Rubik Mono One", Arial, Helvetica, sans-serif;
+    text-decoration: none;
 }
 
 button {
-    background: #ef6c57;
+    background: #E84C7E;
     border-radius: 5px;
     padding: 5px 20px;
     color: white;
-    font: normal bold 18px 'Open Sans', sans-serif;
+    font: normal bold 18px 'Forum', 'Open Sans', sans-serif;
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 4vh;
+    margin-top: 2vh;    
 }
 
 button:hover {
-    background: #9c3829;
+    background: #FF4757;
     transition: all 0.3s;
 }
 
